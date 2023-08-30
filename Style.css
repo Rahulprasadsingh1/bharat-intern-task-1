@@ -1,0 +1,329 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    height:100%;
+    width:100%;
+}
+#main{
+    position:relative;
+    overflow:hidden;
+}
+#page{
+    height:100vh;
+    width:100vw;
+    background-color: rgb(255,255,255);
+    position:relative;
+    
+
+}
+#page>img{
+    width:30%;
+    position:absolute;
+    right:5%;
+    top:50%;
+    transform:translateY(-50%);
+    border: 3px solid;
+    border-radius:50%;
+    border-color:black;
+}
+#page>#nav{
+    height:10%;
+    width:100%;
+    background-color: rgb(255, 255, 242); 
+    z-index:9;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0px 30px;
+    position:fixed; 
+}
+#page>#nav>img{
+    height:50px;
+    width:150px;  
+}
+#center-nav{
+    display: flex;
+    gap:20px;
+}
+#a1:hover{color:rgb(181, 45, 255)}
+#a2:hover{color:rgb(181, 45, 255)}
+#a3:hover{color:rgb(181, 45, 255)}
+#a4:hover{color:rgb(181, 45, 255)}
+#a5:hover{color:rgb(181, 45, 255)}
+#center-nav>a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    font-size:19px;
+    padding:44px;
+    font-style:normal;
+}
+#nav>input{
+    width:250px;
+
+    padding:5px;
+    border: 1px solid;
+    border-radius: 3px;
+    border-color: rgb(100, 230, 255);
+    position:relative;
+    right:5px;
+    left:0px;
+    
+}
+#nav>button{
+    background-color: rgb(255, 120, 0);
+    background-size:;
+    border-radius: 5px;
+    border: none;
+    padding:6px;
+    position: relative;
+    color:white;
+}
+#text{
+    height:75%;
+    width:35%;
+    position: relative;
+    top:18%;
+    left:8%;
+    padding: 30px 50px;
+    scale:1.1;
+}
+#text>h1{
+    font-size: 54px;
+    line-height: 1;
+}
+#text>h4{
+    margin-top: 20px;
+    color:#2b2b2b;
+    font-size: 17px;
+    font-weight: 500;
+}
+#buttons{
+    height:15%;
+    width:100%;
+    position:absolute;
+    left:0%;
+    bottom:18%;
+    font-size: 17px;
+}
+#buttons>button{
+    padding:10px 22px;
+    border-radius:10px;
+    border:none;
+    font-weight:500;
+}
+button:hover{background-color: rgb(207, 149, 149);max-zoom: 15;}
+#buttons>#b1{
+    background-color: #975fff;
+    margin-left:40px;
+}
+#b1:hover{
+    transform: scale(1.1);
+}
+#buttons>#b2{
+    margin-left:20px;
+}
+#b2:hover{
+    transform: scale(1.1);
+}
+/*About Section*/
+#about{
+    height:100vh;
+    width:100vw;
+}
+#aboutme{
+    height:100px;
+    width:100vw;
+    background-color: rgb(239, 237, 237);
+    text-align:center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:62px;
+    position: relative;
+    top:90px;
+}
+#text2{
+    height:450px;
+    width:980px;
+    /* background-color: darkviolet; */
+    position:absolute;
+    right:12px;
+   
+    
+}
+#text2>p{
+    font-size:18px;
+    word-break:break-all;
+    position: relative;
+    top:0px;
+    line-height:1.85;
+}
+#img2{
+    height:500px;
+    width:500px;
+    position:relative;
+    left:10px;
+    top:100px;
+    bottom:100px;
+
+}
+
+/*PORTFOLIO section*/
+#portfolio{
+    height:100vh;
+    background-color:black;
+    color: white;
+
+}
+#portfoliome{
+    height:100px;
+    width:324px;
+    /* background-color: green;  */
+    font-family: 'Times New Roman', Times, serif;
+    transform: translate(200%);
+    font-size:50px;
+    position:relative;
+    right:90px;
+    top:30px;
+}
+#portfolio>img{
+    height:280px;
+    width:300px;
+     position:relative; 
+     top:50px;
+     left:80px;
+     margin-right:50px; 
+}
+#image2>img{
+    height:270px;
+    width:300px;
+    position:relative;
+    top:70px;
+    left:80px;
+    margin-right:50px;
+}
+/*Services Section*/
+#services{
+    height: 100vh;
+    width:100vw;
+    /* background-color: red; */
+
+}
+#services>#servicesh{
+    height:100px;
+    width:100vw;
+    /* background-color: green; */
+    position: relative; 
+    top: 110px; 
+    text-align: center;
+    font-size:70px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#skil1{
+    height:500px;
+    width:500px;
+    /* background-color:blueviolet; */
+    display: inline-block;
+    position: relative;  
+    top:140px;  
+    left:170px;
+}
+#in1{
+    height:470px;
+    width:400px;
+    background-color:rgb(117, 255, 200);
+    position: relative;
+    left:50px;
+    top:10px;
+    border: 1px solid red;
+    border-radius: 15px;
+}
+#iconimg1{
+    transform:scale(0.1);   
+    position: absolute;
+    right:30px;
+    bottom:200px;
+    
+    
+}
+h5{
+    font-size:40px;
+    position: relative;
+    top:20%;
+    left:30%; 
+}
+p{ 
+    font-size:20px;
+    position:relative;
+    top:130px;
+    word-break: break-all;
+}
+#in1:hover{
+    color: rgb(99, 99, 99);
+    box-shadow:0 0 20px grey;
+    box-sizing: content-box ;
+}
+#skil2{
+    height:500px;
+    width:500px;
+    /* background-color:pink; */
+    display: inline-block;
+    position:absolute;
+    top:0px;
+    left:700px; 
+}
+#in2{
+    height:470px;
+    width:400px;
+     background-color:rgb(117, 255, 200); 
+    position: relative;
+    left:20px;
+    top:10px;
+    border: 1px solid red;
+    border-radius: 15px;
+}
+#in2:hover{
+    color: rgb(99, 99, 99);
+    box-shadow:0 0 20px grey;
+    box-sizing: content-box ;
+}
+/* contact section*/
+#contact{
+    height:100vh;
+    width:100vw;
+    background-color:black;
+    
+}
+#contact>#contacth{
+    height:100px;
+    width:100vw;
+     /* background-color: green;  */
+     color: white;
+    position: relative; 
+    top: 75px; 
+    text-align: center;
+    font-size:70px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#inputs{
+ position: relative;
+ top:150px;
+ text-align: center;
+}
+#inputs>input{
+    height:40px;
+    width:420px;
+    font-size: 20px;
+}
+#inputs>textarea{
+    height:150px;
+    width: 420px;
+    font-size: 19px;
+    color: grey;
+}
+#button2{
+    height:35px;
+    width:120px;
+}
